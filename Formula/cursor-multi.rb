@@ -1,8 +1,8 @@
 class CursorMulti < Formula
   desc "CLI tool to manage multiple Git repos for Cursor"
   homepage "https://github.com/montaguegabe/cursor-multi"
-  url "https://github.com/montaguegabe/cursor-multi-cli/releases/download/v1.1.4/multi.tar.gz"
-  sha256 "5b654fb010d92951c09f9d4ecbb5decdf34a5fc3e1f4eadce45f3703ec8f934c"
+  url "https://github.com/montaguegabe/cursor-multi-cli/releases/download/v1.1.6/multi.tar.gz"
+  sha256 "66cc2786c28790c5574029eb529f4c2edcb2c549d9200af9088b4c1ab272cfdc"
   license "PolyForm Internal Use License 1.0.0"
 
   def install
