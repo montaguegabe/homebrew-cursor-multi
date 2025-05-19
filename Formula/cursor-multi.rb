@@ -6,9 +6,9 @@ class CursorMulti < Formula
   license "PolyForm Internal Use License 1.0.0"
 
   def install
-    # Install the entire multi directory into libexec
+    # Install all files from the tarball root into libexec
     # This includes the executable and _internal directory with dependencies
-    libexec.install Dir["multi/*"]
+    libexec.install Dir["*"]
     
     # Create a wrapper script in bin/ that executes the actual binary in libexec/
     # and ensures the _internal directory is accessible
