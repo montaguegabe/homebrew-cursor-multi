@@ -3,7 +3,7 @@ class CursorMulti < Formula
   homepage "https://github.com/montaguegabe/cursor-multi"
   url "https://github.com/montaguegabe/cursor-multi-cli/releases/download/v1.1.6/multi.tar.gz"
   sha256 "66cc2786c28790c5574029eb529f4c2edcb2c549d9200af9088b4c1ab272cfdc"
-  license "PolyForm Internal Use License 1.0.0"
+  license "MIT"
 
   def install
     # Install all files from the tarball root into libexec
