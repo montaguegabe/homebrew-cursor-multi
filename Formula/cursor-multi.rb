@@ -1,8 +1,8 @@
 class CursorMulti < Formula
   desc "CLI tool to manage multiple Git repos for Cursor"
   homepage "https://github.com/montaguegabe/cursor-multi"
-  url "https://github.com/montaguegabe/cursor-multi-cli/releases/download/v1.1.7/multi.tar.gz"
-  sha256 "adb27386e2552c58e12497a73e7f16dc9c815d90f96309613f755c137740f07c"
+  url "https://github.com/montaguegabe/cursor-multi-cli/releases/download/v1.1.10/multi.tar.gz"
+  sha256 "1311aef48961604a7b2803de4d64b6c721041f56da6214b8acf1ec01aef4e519"
   license "MIT"
 
   def install
